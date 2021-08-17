@@ -1,13 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
-import homepagePhoto from './Images/photo-1.jpg'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import Home from './Components/Home/Home';
 
 function App() {
   return (
-    <div className="App">
-        <h1>Hire Photographer As Your Budget</h1>
-        <img src={homepagePhoto} alt=""></img>
-    </div>
+      <Router>
+        <Switch>
+          <Route path="/home">
+            <Home></Home>
+          </Route>
+        </Switch>
+      </Router>
   );
 }
 
