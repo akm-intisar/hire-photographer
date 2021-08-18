@@ -37,7 +37,9 @@ const Home = () => {
       </Navbar>
       <div className='bg-image'>
       <Image src={homepagePhoto} className="d-block mx-auto img-fluid w-100" >
+
       </Image>
+
       </div>
     </section>
   );
