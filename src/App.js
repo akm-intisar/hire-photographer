@@ -19,6 +19,10 @@ function App() {
           <Route path="/freelancer">
             <Freelancer></Freelancer>
           </Route>
+
+          <Route path="/company">
+            <Freelancer></Freelancer>
+          </Route>
         </Switch>
       </Router>
   );
