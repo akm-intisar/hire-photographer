@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import Home from './Components/Home/Home';
 import Freelancer from './Components/Freelancer/Freelancer';
+import Wedding from './Components/Wedding/Wedding';
 
 function App() {
   return (
@@ -23,6 +24,10 @@ function App() {
           <Route path="/company">
             <Freelancer></Freelancer>
           </Route>
+<Route path="/wedding">
+  <Wedding></Wedding>
+</Route>
+
         </Switch>
       </Router>
   );
