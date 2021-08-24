@@ -4,6 +4,7 @@ import Home from "./Components/Home/Home";
 import Freelancer from "./Components/Freelancer/Freelancer";
 import Wedding from "./Components/Wedding/Wedding";
 import About from "./Components/About/About";
+import UrgentNeed from "./Components/UrgentNeed/UrgentNeed";
 
 function App() {
   return (
@@ -26,6 +27,10 @@ function App() {
 
         <Route path="/about">
           <About></About>
+        </Route>
+
+        <Route path="/urgent">
+          <UrgentNeed></UrgentNeed>
         </Route>
       </Switch>
     </Router>
