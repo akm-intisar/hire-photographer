@@ -1,21 +1,20 @@
-import { Alert } from "bootstrap";
 import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Alert } from 'reactstrap';
+
 
 const UrgentNeed = () => {
   return (
     <div>
-      <h1>Call Us</h1>
-      <Alert variant="success">
-        <Alert.Heading>Hey, nice to see you</Alert.Heading>
+                  <Alert color="danger">
+        <h4 className="alert-heading">We're here 24/7 to help you out!</h4>
         <p>
-          Aww yeah, you successfully read this important alert message. This
-          example text is going to run a bit longer so that you can see how
-          spacing within an alert works with this kind of content.
+          Here is out 24/7 active hotline number. If you need any kind of service that is unavailable in our system. Do a phone call or send a sms. You can also drop a mail! 
         </p>
         <hr />
         <p className="mb-0">
-          Whenever you need to, be sure to use margin utilities to keep things
-          nice and tidy.
+          Call 01010101010101 <br></br>
+          Email: urgent@hirephotogrpaher.com
         </p>
       </Alert>
     </div>
