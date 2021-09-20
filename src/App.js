@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./Components/Home/Home";
 import Freelancer from "./Components/Freelancer/Freelancer";
-import Wedding from "./Components/Wedding/Wedding";
+import DonateUs from "./Components/DonateUs/DonateUs";
 import About from "./Components/About/About";
 import UrgentNeed from "./Components/UrgentNeed/UrgentNeed";
 
@@ -20,8 +20,8 @@ function App() {
         <Route path="/company">
           <Freelancer></Freelancer>
         </Route>
-        <Route path="/wedding">
-          <Wedding></Wedding>
+        <Route path="/DonateUs">
+          <DonateUs></DonateUs>
         </Route>
 
         <Route path="/about">

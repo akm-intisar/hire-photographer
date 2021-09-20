@@ -15,7 +15,7 @@ const Home = () => {
               <Nav.Link href="/company">Company</Nav.Link>
               <Nav.Link href="/freelancer">Freelancer</Nav.Link>
               <NavDropdown title="Event" id="collasible-nav-dropdown">
-                <NavDropdown.Item href="/wedding">Wedding</NavDropdown.Item>
+                <NavDropdown.Item href="/DonateUs">DonateUs</NavDropdown.Item>
                 <NavDropdown.Item href="/birthday">Birthday</NavDropdown.Item>
                 <NavDropdown.Item href="/official">
                   Office Party
