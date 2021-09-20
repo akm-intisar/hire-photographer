@@ -1,5 +1,4 @@
-import "./App.css";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./Components/Home/Home";
 import Freelancer from "./Components/Freelancer/Freelancer";
 import Wedding from "./Components/Wedding/Wedding";

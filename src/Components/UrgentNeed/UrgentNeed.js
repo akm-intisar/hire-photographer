@@ -1,6 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Alert } from 'reactstrap';
+import Login from "../Login/Login";
 
 
 const UrgentNeed = () => {
@@ -16,6 +17,7 @@ const UrgentNeed = () => {
           Call 01010101010101 <br></br>
           Email: urgent@hirephotogrpaher.com
         </p>
+        <Login></Login>
       </Alert>
     </div>
   );
