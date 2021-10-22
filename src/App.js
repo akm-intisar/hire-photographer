@@ -4,6 +4,7 @@ import Freelancer from "./Components/Freelancer/Freelancer";
 import DonateUs from "./Components/DonateUs/DonateUs";
 import About from "./Components/About/About";
 import UrgentNeed from "./Components/UrgentNeed/UrgentNeed";
+import "./App.css";
 
 function App() {
   return (

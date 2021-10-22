@@ -10,7 +10,7 @@ import {
   useElements,
   useStripe
 } from "@stripe/react-stripe-js";
-import "./styles.css";
+import "./DonateUs.css";
 
 const CARD_OPTIONS = {
   iconStyle: "solid",
