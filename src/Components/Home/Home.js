@@ -2,13 +2,14 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Image, Nav, Navbar, NavDropdown } from "react-bootstrap";
 import homepagePhoto from "../../Images/photo-1.jpg";
+import "./Home.css";
 
 const Home = () => {
   return (
     <section>
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="/home">Photographer On Budget</Navbar.Brand>
+          <Navbar.Brand href="/">Photographer On Budget</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
@@ -35,11 +36,8 @@ const Home = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      <div className='bg-image'>
-      <Image src={homepagePhoto} className="d-block mx-auto img-fluid w-100" >
-
-      </Image>
-
+      <div>
+        <Image className="responsive-image" src={homepagePhoto} sty></Image>
       </div>
     </section>
   );

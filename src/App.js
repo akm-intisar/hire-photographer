@@ -5,6 +5,7 @@ import DonateUs from "./Components/DonateUs/DonateUs";
 import About from "./Components/About/About";
 import UrgentNeed from "./Components/UrgentNeed/UrgentNeed";
 import "./App.css";
+import Company from "./Components/Company/Company";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
         </Route>
 
         <Route path="/company">
-          <Freelancer></Freelancer>
+          <Company></Company>
         </Route>
         <Route path="/DonateUs">
           <DonateUs></DonateUs>
